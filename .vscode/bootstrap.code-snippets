@@ -1,0 +1,70 @@
+{
+    "start bootstrap": {
+        "scope": "html",
+        "prefix": "start bootstrap",
+        "body": [
+            "<!doctype html>",
+            "<html lang=\"ko\">",
+            "",
+            "<head>",
+            "\t<meta charset=\"utf-8\">",
+            "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "\t<title>부트스트랩 실습</title>",
+            "",
+            "\t<!-- Bootstrap CSS -->",
+            "\t<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\"",
+            "\t\tintegrity=\"sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU\" crossorigin=\"anonymous\">",
+            "",
+            "\t<!-- util.css -->",
+            "\t<link rel=\"stylesheet\" href=\"../css/util.css\" />",
+            "",
+            "\t<!-- 여기에 css를 넣으세요 -->",
+            "",
+            "</head>",
+            "",
+            "<body>",
+            "\t<!-- 여기에 body 내용을 넣으세요 -->",
+            "\t<h1 class=\"title\">$1</h1>",
+            "\t<div class=\"example\">",
+            "\t\t$2",
+            "\t</div>",
+            "\t",
+            "\t<!-- Bootstrap JS -->",
+            "\t<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js\"",
+            "\t\tintegrity=\"sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ\"",
+            "\t\tcrossorigin=\"anonymous\"></script>",
+            "</body>",
+            "</html>"
+        ]
+    },
+    "example": {
+        "scope": "html",
+        "prefix": ["example"],
+        "body": [
+            "<h1 class=\"title\">$1</h1>",
+            "<div class=\"example\">",
+            "\t$2",
+            "</div>",
+        ]
+    },
+    "example no head": {
+        "scope": "html",
+        "prefix": ["example no head"],
+        "body": [
+            "<div class=\"example\">",
+            "\t$2",
+            "</div>",
+        ]
+    },
+    "card image": {
+        "scope": "html",
+        "prefix": ["card image"],
+        "body": [
+            "<svg class=\"bd-placeholder-img card-img-top\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"",
+            "\trole=\"img\" aria-label=\"Placeholder: Image cap\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\">",
+            "\t<title>Placeholder</title>",
+            "\t<rect width=\"100%\" height=\"100%\" fill=\"#868e96\"></rect>",
+            "</svg>",
+        ]
+    }
+}
