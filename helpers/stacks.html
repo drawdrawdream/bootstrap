@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>부트스트랩 실습</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- util.css -->
+    <link rel="stylesheet" href="../css/util.css" />
+
+    <!-- 여기에 css를 넣으세요 -->
+
+</head>
+
+<body>
+    <!-- 여기에 body 내용을 넣으세요 -->
+    <h1 class="title">Vertical</h1>
+            <div class="example bg-white">
+                <div class="vstack gap-3">
+                   <div class="bg-light border">First item</div>
+                  <div class="bg-light border">Second item</div>
+               <div class="bg-light border">Third item</div>
+           </div>
+      </div>
+ 
+   <h1 class="title">Horizontal</h1>
+       <div class="example bg-white">
+        <div class="hstack gap-3">
+                 <span class="bg-light border">First item</span>
+               <div class="bg-light border">Second item</div>
+              <div class="bg-light border">Third item</div>
+              </div>
+           </div>
+         <div class="example bg-white">
+           <div class="hstack gap-3">
+                  <div class="bg-light border">First item</div>
+                <div class="bg-light border ms-auto">Second item</div>
+                <div class="bg-light border">Third item</div>
+             </div>
+       </div>
+        <div class="example bg-white">
+               <div class="hstack gap-3">
+                   <div class="bg-light border">First item</div>
+                   <div class="bg-light border ms-auto">Second item</div>
+              <div class="vr"></div>
+                <div class="bg-light border">Third item</div>
+           </div>
+           </div>
+        
+          <h1 class="title">Examples</h1>
+          <div class="example">
+            <div class="vstack gap-2 col-md-5 mx-auto">
+                   <button type="button" class="btn btn-secondary">Save changes</button>
+                <button type="button" class="btn btn-outline-secondary">Cancel</button>
+              </div>
+          </div>
+        <div class="example">
+             <div class="hstack gap-3">
+                <input class="form-control me-auto" type="text" placeholder="Add your item here..."
+                   aria-label="Add your item here...">
+                <button type="button" class="btn btn-secondary">Submit</button>
+               <div class="vr"></div>
+                <button type="button" class="btn btn-outline-danger">Reset</button>
+             </div>
+            </div>
+     
+          <!--  Bootstrap JS -->
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+              crossorigin="anonymous"></script>   
+</body>
+</html>
